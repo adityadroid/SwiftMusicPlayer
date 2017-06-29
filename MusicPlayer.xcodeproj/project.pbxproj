@@ -12,6 +12,22 @@
 		402147EA1EE01BB50033955C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 402147E81EE01BB50033955C /* Main.storyboard */; };
 		402147EC1EE01BB50033955C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 402147EB1EE01BB50033955C /* Assets.xcassets */; };
 		402147EF1EE01BB50033955C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 402147ED1EE01BB50033955C /* LaunchScreen.storyboard */; };
+		402147F71EE01F2E0033955C /* eminem_recovery_by_marshalleminem-d4oefgu.png in Resources */ = {isa = PBXBuildFile; fileRef = 402147F61EE01F2E0033955C /* eminem_recovery_by_marshalleminem-d4oefgu.png */; };
+		402148051EE032E20033955C /* Phenomenal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 402148041EE032E20033955C /* Phenomenal.mp3 */; };
+		408BFDF81EE0949A00F94F1A /* fast-forward.png in Resources */ = {isa = PBXBuildFile; fileRef = 408BFDF51EE0949A00F94F1A /* fast-forward.png */; };
+		408BFDF91EE0949A00F94F1A /* play-button(2).png in Resources */ = {isa = PBXBuildFile; fileRef = 408BFDF61EE0949A00F94F1A /* play-button(2).png */; };
+		408BFDFA1EE0949A00F94F1A /* rewind.png in Resources */ = {isa = PBXBuildFile; fileRef = 408BFDF71EE0949A00F94F1A /* rewind.png */; };
+		408BFDFD1EE0A30400F94F1A /* dot-and-circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 408BFDFB1EE0A30400F94F1A /* dot-and-circle.png */; };
+		408BFDFE1EE0A30400F94F1A /* speaker.png in Resources */ = {isa = PBXBuildFile; fileRef = 408BFDFC1EE0A30400F94F1A /* speaker.png */; };
+		408BFE001EE0A46F00F94F1A /* dot-and-circle(1).png in Resources */ = {isa = PBXBuildFile; fileRef = 408BFDFF1EE0A46F00F94F1A /* dot-and-circle(1).png */; };
+		408BFE021EE0A51800F94F1A /* speaker(1).png in Resources */ = {isa = PBXBuildFile; fileRef = 408BFE011EE0A51800F94F1A /* speaker(1).png */; };
+		408BFE041EE0AA6400F94F1A /* pause(3).png in Resources */ = {isa = PBXBuildFile; fileRef = 408BFE031EE0AA6400F94F1A /* pause(3).png */; };
+		40B61A861EE1412E0033CB16 /* Smack that.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 40B61A821EE1412E0033CB16 /* Smack that.mp3 */; };
+		40B61A871EE1412E0033CB16 /* Beautiful.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 40B61A831EE1412E0033CB16 /* Beautiful.mp3 */; };
+		40B61A881EE1412E0033CB16 /* Forever.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 40B61A841EE1412E0033CB16 /* Forever.mp3 */; };
+		40B61A891EE1412E0033CB16 /* Guts Over Fear.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 40B61A851EE1412E0033CB16 /* Guts Over Fear.mp3 */; };
+		40B61A8B1EE144020033CB16 /* music-player.png in Resources */ = {isa = PBXBuildFile; fileRef = 40B61A8A1EE144020033CB16 /* music-player.png */; };
+		40B61A8D1EE144AC0033CB16 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = 40B61A8C1EE144AC0033CB16 /* default.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +38,22 @@
 		402147EB1EE01BB50033955C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		402147EE1EE01BB50033955C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		402147F01EE01BB50033955C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		402147F61EE01F2E0033955C /* eminem_recovery_by_marshalleminem-d4oefgu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "eminem_recovery_by_marshalleminem-d4oefgu.png"; path = "../../../../Downloads/eminem_recovery_by_marshalleminem-d4oefgu.png"; sourceTree = "<group>"; };
+		402148041EE032E20033955C /* Phenomenal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Phenomenal.mp3; path = ../../../Phenomenal.mp3; sourceTree = "<group>"; };
+		408BFDF51EE0949A00F94F1A /* fast-forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fast-forward.png"; path = "../../../../Downloads/fast-forward.png"; sourceTree = "<group>"; };
+		408BFDF61EE0949A00F94F1A /* play-button(2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "play-button(2).png"; path = "../../../../Downloads/play-button(2).png"; sourceTree = "<group>"; };
+		408BFDF71EE0949A00F94F1A /* rewind.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rewind.png; path = ../../../../Downloads/rewind.png; sourceTree = "<group>"; };
+		408BFDFB1EE0A30400F94F1A /* dot-and-circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "dot-and-circle.png"; path = "../../../../Downloads/dot-and-circle.png"; sourceTree = "<group>"; };
+		408BFDFC1EE0A30400F94F1A /* speaker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = speaker.png; path = ../../../../Downloads/speaker.png; sourceTree = "<group>"; };
+		408BFDFF1EE0A46F00F94F1A /* dot-and-circle(1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "dot-and-circle(1).png"; path = "../../../../Downloads/dot-and-circle(1).png"; sourceTree = "<group>"; };
+		408BFE011EE0A51800F94F1A /* speaker(1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "speaker(1).png"; sourceTree = "<group>"; };
+		408BFE031EE0AA6400F94F1A /* pause(3).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pause(3).png"; sourceTree = "<group>"; };
+		40B61A821EE1412E0033CB16 /* Smack that.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Smack that.mp3"; sourceTree = "<group>"; };
+		40B61A831EE1412E0033CB16 /* Beautiful.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Beautiful.mp3; sourceTree = "<group>"; };
+		40B61A841EE1412E0033CB16 /* Forever.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Forever.mp3; sourceTree = "<group>"; };
+		40B61A851EE1412E0033CB16 /* Guts Over Fear.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Guts Over Fear.mp3"; sourceTree = "<group>"; };
+		40B61A8A1EE144020033CB16 /* music-player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "music-player.png"; sourceTree = "<group>"; };
+		40B61A8C1EE144AC0033CB16 /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +86,18 @@
 		402147E31EE01BB50033955C /* MusicPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				40B61A8C1EE144AC0033CB16 /* default.png */,
+				40B61A8A1EE144020033CB16 /* music-player.png */,
+				40B61A811EE1411A0033CB16 /* music */,
+				408BFE031EE0AA6400F94F1A /* pause(3).png */,
+				408BFE011EE0A51800F94F1A /* speaker(1).png */,
+				408BFDFF1EE0A46F00F94F1A /* dot-and-circle(1).png */,
+				408BFDFB1EE0A30400F94F1A /* dot-and-circle.png */,
+				408BFDFC1EE0A30400F94F1A /* speaker.png */,
+				408BFDF51EE0949A00F94F1A /* fast-forward.png */,
+				408BFDF61EE0949A00F94F1A /* play-button(2).png */,
+				408BFDF71EE0949A00F94F1A /* rewind.png */,
+				402147F61EE01F2E0033955C /* eminem_recovery_by_marshalleminem-d4oefgu.png */,
 				402147E41EE01BB50033955C /* AppDelegate.swift */,
 				402147E61EE01BB50033955C /* ViewController.swift */,
 				402147E81EE01BB50033955C /* Main.storyboard */,
@@ -62,6 +106,18 @@
 				402147F01EE01BB50033955C /* Info.plist */,
 			);
 			path = MusicPlayer;
+			sourceTree = "<group>";
+		};
+		40B61A811EE1411A0033CB16 /* music */ = {
+			isa = PBXGroup;
+			children = (
+				402148041EE032E20033955C /* Phenomenal.mp3 */,
+				40B61A821EE1412E0033CB16 /* Smack that.mp3 */,
+				40B61A831EE1412E0033CB16 /* Beautiful.mp3 */,
+				40B61A841EE1412E0033CB16 /* Forever.mp3 */,
+				40B61A851EE1412E0033CB16 /* Guts Over Fear.mp3 */,
+			);
+			name = music;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +179,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				402147F71EE01F2E0033955C /* eminem_recovery_by_marshalleminem-d4oefgu.png in Resources */,
+				40B61A891EE1412E0033CB16 /* Guts Over Fear.mp3 in Resources */,
+				40B61A8B1EE144020033CB16 /* music-player.png in Resources */,
+				408BFDF81EE0949A00F94F1A /* fast-forward.png in Resources */,
+				408BFE021EE0A51800F94F1A /* speaker(1).png in Resources */,
+				40B61A8D1EE144AC0033CB16 /* default.png in Resources */,
+				40B61A861EE1412E0033CB16 /* Smack that.mp3 in Resources */,
 				402147EF1EE01BB50033955C /* LaunchScreen.storyboard in Resources */,
+				408BFE001EE0A46F00F94F1A /* dot-and-circle(1).png in Resources */,
+				408BFDFA1EE0949A00F94F1A /* rewind.png in Resources */,
+				408BFDF91EE0949A00F94F1A /* play-button(2).png in Resources */,
+				408BFDFD1EE0A30400F94F1A /* dot-and-circle.png in Resources */,
+				408BFE041EE0AA6400F94F1A /* pause(3).png in Resources */,
+				402148051EE032E20033955C /* Phenomenal.mp3 in Resources */,
 				402147EC1EE01BB50033955C /* Assets.xcassets in Resources */,
 				402147EA1EE01BB50033955C /* Main.storyboard in Resources */,
+				408BFDFE1EE0A30400F94F1A /* speaker.png in Resources */,
+				40B61A881EE1412E0033CB16 /* Forever.mp3 in Resources */,
+				40B61A871EE1412E0033CB16 /* Beautiful.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +371,7 @@
 				402147F51EE01BB50033955C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

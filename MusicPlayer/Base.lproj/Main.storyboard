@@ -1,14 +1,20 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16D30" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MusicPlayer" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +22,152 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uzn-mp-ame">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="eminem_recovery_by_marshalleminem-d4oefgu.png" translatesAutoresizingMaskIntoConstraints="NO" id="HpN-e3-uWK">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="375"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="HpN-e3-uWK" secondAttribute="height" multiplier="1:1" id="vf3-jP-alx"/>
+                                        </constraints>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="center" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="bmw-YL-1pL">
+                                        <rect key="frame" x="30" y="563" width="315" height="32"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VLE-Hw-n6l">
+                                                <rect key="frame" x="0.0" y="0.0" width="105" height="32"/>
+                                                <state key="normal" image="rewind.png"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bZv-fP-WXf">
+                                                <rect key="frame" x="105" y="0.0" width="105" height="32"/>
+                                                <state key="normal" image="play-button(2).png"/>
+                                                <connections>
+                                                    <action selector="playButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ajb-7O-dG6"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yQT-H6-XRz">
+                                                <rect key="frame" x="210" y="0.0" width="105" height="32"/>
+                                                <state key="normal" image="fast-forward.png"/>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Love (ft. Lil Wayne)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hJo-WE-WuT">
+                                        <rect key="frame" x="30" y="405" width="315" height="20.5"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                        <color key="textColor" red="0.081794641909999993" green="0.1537971497" blue="0.26269760730000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recovery" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6u9-ds-kJh">
+                                        <rect key="frame" x="30" y="435.5" width="315" height="19.5"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="66O-hQ-zlb">
+                                        <rect key="frame" x="28" y="475" width="319" height="31"/>
+                                        <color key="minimumTrackTintColor" red="0.20392156862745098" green="0.28627450980392155" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="maximumTrackTintColor" red="0.20392156862745098" green="0.28627450980392155" blue="0.36862745098039218" alpha="0.52209974315068497" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="seekAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="C4D-i6-ggM"/>
+                                        </connections>
+                                    </slider>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2:23" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k3C-iW-U5C">
+                                        <rect key="frame" x="30" y="503" width="42" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="42" id="w1s-2A-eOt"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="12"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4:00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k3L-wP-A5Q">
+                                        <rect key="frame" x="303" y="503" width="42" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="3Hn-N2-FCs"/>
+                                            <constraint firstAttribute="width" constant="42" id="uqK-As-Ooy"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="12"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="nRN-XJ-8jL">
+                                        <rect key="frame" x="24" y="375" width="348" height="31.5"/>
+                                        <color key="minimumTrackTintColor" red="0.20392156859999999" green="0.28627450980000002" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="maximumTrackTintColor" red="0.20392156859999999" green="0.28627450980000002" blue="0.36862745099999999" alpha="0.52209974319999997" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="volumeAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="HJv-n0-2OL"/>
+                                        </connections>
+                                    </slider>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="speaker(1).png" translatesAutoresizingMaskIntoConstraints="NO" id="5VD-QC-3Xs">
+                                        <rect key="frame" x="5" y="383" width="16" height="16"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="5VD-QC-3Xs" secondAttribute="height" multiplier="1:1" id="lN9-Ta-bep"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="5VD-QC-3Xs" firstAttribute="top" secondItem="HpN-e3-uWK" secondAttribute="bottom" constant="8" id="11Y-Ru-R19"/>
+                                    <constraint firstItem="k3L-wP-A5Q" firstAttribute="trailing" secondItem="66O-hQ-zlb" secondAttribute="trailing" id="4Na-cQ-51G"/>
+                                    <constraint firstAttribute="bottom" secondItem="bmw-YL-1pL" secondAttribute="bottom" constant="40" id="4oy-QH-cLN"/>
+                                    <constraint firstItem="k3L-wP-A5Q" firstAttribute="baseline" secondItem="k3C-iW-U5C" secondAttribute="baseline" id="6gv-Hy-Yrm"/>
+                                    <constraint firstItem="k3L-wP-A5Q" firstAttribute="firstBaseline" secondItem="k3C-iW-U5C" secondAttribute="firstBaseline" id="7zA-kF-Zmj"/>
+                                    <constraint firstAttribute="trailing" secondItem="bmw-YL-1pL" secondAttribute="trailing" constant="30" id="89L-Tl-yxc"/>
+                                    <constraint firstItem="k3C-iW-U5C" firstAttribute="leading" secondItem="66O-hQ-zlb" secondAttribute="leading" id="A1H-3S-LfZ"/>
+                                    <constraint firstAttribute="trailing" secondItem="66O-hQ-zlb" secondAttribute="trailing" constant="30" id="K0d-hg-rvk"/>
+                                    <constraint firstItem="6u9-ds-kJh" firstAttribute="top" secondItem="hJo-WE-WuT" secondAttribute="bottom" constant="10" id="MQI-sj-Q25"/>
+                                    <constraint firstAttribute="bottom" secondItem="HpN-e3-uWK" secondAttribute="bottom" constant="260" id="Mpi-IW-p3q"/>
+                                    <constraint firstItem="HpN-e3-uWK" firstAttribute="top" secondItem="uzn-mp-ame" secondAttribute="top" id="OOY-d7-it4"/>
+                                    <constraint firstItem="nRN-XJ-8jL" firstAttribute="top" secondItem="HpN-e3-uWK" secondAttribute="bottom" id="UCM-EJ-r6M"/>
+                                    <constraint firstItem="6u9-ds-kJh" firstAttribute="leading" secondItem="uzn-mp-ame" secondAttribute="leading" constant="30" id="Wz0-6G-laU"/>
+                                    <constraint firstItem="bmw-YL-1pL" firstAttribute="leading" secondItem="uzn-mp-ame" secondAttribute="leading" constant="30" id="YT7-y8-p3U"/>
+                                    <constraint firstItem="66O-hQ-zlb" firstAttribute="leading" secondItem="uzn-mp-ame" secondAttribute="leading" constant="30" id="YTl-Ic-cKv"/>
+                                    <constraint firstItem="HpN-e3-uWK" firstAttribute="leading" secondItem="uzn-mp-ame" secondAttribute="leading" id="dYD-eW-a5w"/>
+                                    <constraint firstItem="5VD-QC-3Xs" firstAttribute="leading" secondItem="uzn-mp-ame" secondAttribute="leading" constant="5" id="gZN-B5-9xF"/>
+                                    <constraint firstAttribute="trailing" secondItem="6u9-ds-kJh" secondAttribute="trailing" constant="30" id="hMN-jc-1K1"/>
+                                    <constraint firstAttribute="trailing" secondItem="hJo-WE-WuT" secondAttribute="trailing" constant="30" id="j58-oD-b1u"/>
+                                    <constraint firstItem="66O-hQ-zlb" firstAttribute="top" secondItem="6u9-ds-kJh" secondAttribute="bottom" constant="20" id="jY6-ei-FdE"/>
+                                    <constraint firstItem="hJo-WE-WuT" firstAttribute="top" secondItem="HpN-e3-uWK" secondAttribute="bottom" constant="30" id="jr4-qy-o0b"/>
+                                    <constraint firstAttribute="trailing" secondItem="HpN-e3-uWK" secondAttribute="trailing" id="lZD-bf-oQc"/>
+                                    <constraint firstItem="nRN-XJ-8jL" firstAttribute="leading" secondItem="5VD-QC-3Xs" secondAttribute="trailing" constant="5" id="n75-BL-lvn"/>
+                                    <constraint firstAttribute="trailing" secondItem="nRN-XJ-8jL" secondAttribute="trailing" constant="5" id="ncP-bc-MPy"/>
+                                    <constraint firstItem="HpN-e3-uWK" firstAttribute="centerX" secondItem="uzn-mp-ame" secondAttribute="centerX" id="pTV-ht-L6W"/>
+                                    <constraint firstItem="6u9-ds-kJh" firstAttribute="top" secondItem="nRN-XJ-8jL" secondAttribute="bottom" constant="30" id="q5l-DJ-HY8"/>
+                                    <constraint firstItem="k3L-wP-A5Q" firstAttribute="top" secondItem="6u9-ds-kJh" secondAttribute="bottom" constant="48" id="tHb-wn-Q5q"/>
+                                    <constraint firstItem="hJo-WE-WuT" firstAttribute="leading" secondItem="uzn-mp-ame" secondAttribute="leading" constant="30" id="vnd-np-DHw"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="uzn-mp-ame" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Pfb-Q7-MY4"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="uzn-mp-ame" secondAttribute="bottom" id="Quh-NO-Xqo"/>
+                            <constraint firstAttribute="trailing" secondItem="uzn-mp-ame" secondAttribute="trailing" id="eiT-lQ-TFb"/>
+                            <constraint firstItem="uzn-mp-ame" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="u2e-N5-UOt"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="albumArtImageView" destination="HpN-e3-uWK" id="LEn-mN-IaY"/>
+                        <outlet property="albumLabel" destination="6u9-ds-kJh" id="ZYx-cM-gYQ"/>
+                        <outlet property="currentSeekTimeLabel" destination="k3C-iW-U5C" id="wIx-0r-Qut"/>
+                        <outlet property="forwardButton" destination="yQT-H6-XRz" id="Jvd-BT-A33"/>
+                        <outlet property="playButton" destination="bZv-fP-WXf" id="JZK-tX-IlI"/>
+                        <outlet property="rewindButton" destination="VLE-Hw-n6l" id="iNM-l0-e5i"/>
+                        <outlet property="songSlider" destination="66O-hQ-zlb" id="DP0-Ge-iAf"/>
+                        <outlet property="songTitleLabel" destination="hJo-WE-WuT" id="Grg-Pn-8n1"/>
+                        <outlet property="totalSeekTimeLabel" destination="k3L-wP-A5Q" id="CRA-nA-54z"/>
+                        <outlet property="volumeSlider" destination="nRN-XJ-8jL" id="hR5-xW-IpK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="eminem_recovery_by_marshalleminem-d4oefgu.png" width="953" height="862"/>
+        <image name="fast-forward.png" width="32" height="32"/>
+        <image name="play-button(2).png" width="32" height="32"/>
+        <image name="rewind.png" width="32" height="32"/>
+        <image name="speaker(1).png" width="16" height="16"/>
+    </resources>
 </document>
